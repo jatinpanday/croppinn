@@ -1,0 +1,198 @@
+ul{
+    list-style-type: none;
+}
+.left{
+    float: left;
+height: 16px;
+font: normal normal bold 15px/19px Montserrat;
+letter-spacing: 0.39px;
+color: #FFFFFF;
+padding: 0px 9px 0px 0px;
+
+}
+.lease{
+    position: relative;
+    left: 276px;
+    top: 180px;
+}
+.sale{
+    position: relative;
+    left: 70px;
+    top: 240px;
+}
+.crops{
+    position: relative;
+    top: 290px;
+    left: 70px;
+}
+.lease,.sale,.crops{
+width: 164px;
+height: 19px;
+text-align: left;
+font: normal normal bold 16px/19px Montserrat;
+letter-spacing: 0.48px;
+color: #151515;
+opacity: 1;
+}
+
+.card-title{
+width: 85px;
+height: 18px;
+font: normal normal bold 14px/18px Montserrat;
+letter-spacing: 0.42px;
+color: #151515;
+opacity: 1;
+}
+.text{
+height: 18px;
+font: normal normal normal 14px/18px Montserrat;
+letter-spacing: 0.42px;
+color: #151515;
+opacity: 1;
+}
+.ftbtn1{
+border: 2px solid #FF0000;
+color: #FF0000;
+}
+
+.ftbtn,.ftbtn1,.ftbtn2{
+    position: relative;
+    top: 12px;
+text-align: left;
+font: normal normal 600 12px/15px Montserrat;
+letter-spacing: 0.36px;
+opacity: 1;
+padding: 5px 10px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+border-radius: 20px;
+}
+.ftbtn2{
+border: 2px solid #009A00;
+color: #009A00;
+}
+.arrow{
+    position: relative;
+    top:50px;
+}
+.arrow1{
+    position: relative;
+    top:100px;
+}
+.arrow,.arrow1{
+    left: 330px;
+width: 30px;
+height: 30px;
+padding: 5px;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+border-radius: 50%;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+
+.ftbtn{
+    border: 2px solid #FF9203;
+    color: #FF9203;
+}
+.button1{
+    position: absolute;
+    width:68px;
+    left:160px;
+}
+.button{
+    position: absolute;
+left: 145px;
+width: 83px;
+}
+.button,.button1{
+    top: 19px;
+height: 22px;
+border-radius: 20px;
+opacity: 1;
+font: normal normal normal 10px/13px Montserrat;
+letter-spacing: 0.3px;
+color: #009A00;
+opacity: 1;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #009A00;
+}
+.img-adjusted{
+width: 244px;
+height: 147px;
+background: transparent  0% 0% no-repeat padding-box;
+border-radius: 10px 10px 0px 0px;
+opacity: 1;
+}
+.card1{
+    position: relative;
+    top: 200px;
+    height: 275px;
+}
+.card5{
+    position: relative;
+    top: 400px;
+    height: 249px;
+}
+.card4{
+    position: relative;
+    top: 350px;
+    height: 249px;
+}
+.card2{
+    position: relative;
+    top: 250px;
+    height: 275px;
+}
+.card3{
+    position: relative;
+    top: 300px;
+    height: 304px;
+}
+.card1,.card2,.card3,.card4,.card5{
+left: 65px;
+width: 244px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 20px #00000029;
+border-radius: 10px;
+opacity: 1;
+}
+.view{
+    position: relative;
+    top: 180px;
+    left: 1160px;
+}
+.view1{
+    position: relative;
+    top: 240px;
+    left: 950px;
+}
+.view,.view1{
+    
+width: 86px;
+height: 19px;
+text-align: left;
+font: normal normal bold 16px/19px Montserrat;
+letter-spacing: 0.48px;
+color: #009A00;
+opacity: 1;
+}
+.bottom{
+    padding-bottom: 10px;
+    opacity: 0.45;
+    font: normal normal normal 13px/16px Montserrat;
+}
+.navbar{
+    top: 136px;
+left: 276px;
+width: 1134px;
+height: 102px;
+background: #009A00 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 10px;
+}
+select{
+    background-color: #009A00;
+    border: none;
+    color: #FFFFFF;
+    opacity: 1;
+}

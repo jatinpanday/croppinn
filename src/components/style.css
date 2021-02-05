@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1080px) {
+    .ifarmdetails {    top: 20rem;
+        right: 5rem;
+        position:absolute;
+        width: auto;
+        height: 30px;
+        border:none;
+        border-bottom:2px solid grey;
+        opacity: 1;}
+}
+
+.main{
+    
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+    
+}
+.submain{
+    width:20%;
+    height:100%;
+}
+.add{
+top: 3rem;
+left: 4rem;
+position:relative;
+text-align: left;
+font: normal normal bold 20px/24px Montserrat;
+letter-spacing: 0.6px;
+color: #151515;
+opacity: 1;
+float:left;
+}
+.farms{
+top: 3rem;
+right: 4rem;
+position:absolute;
+width: 142px;
+height: 50px;
+background: transparent linear-gradient(90deg, #99CC00 0%, #009A00 100%) 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border:none;
+}
+.gpic{
+    position: absolute;
+    top: 380px;
+  left: 276px;
+  width: 1134px;
+  height: 498px;
+  background: transparent  0% 0% no-repeat padding-box;
+  opacity: 1;
+  }
+ 
+  .undo{
+    position: absolute;
+    top: 330px;
+  left: 1366px;
+  width: 42px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 600 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #868686;
+  opacity: 1;
+  border: none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  }
+  .poly{
+      position: absolute;
+    top: 330px;
+    left: 276px;
+    width: 198px;
+    height: 22px;
+    text-align: left;
+    font: normal normal medium 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: black;
+    font-weight:normal;
+    opacity: 1;
+  }
+
+.text1{
+max-width: 72px;
+max-height: 19px;
+text-align: left;
+font: normal normal 600 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.soiltype{
+    width: 900px;
+}
+.lfarm{
+
+top: 18rem;
+left: 4rem;
+position:absolute;
+width: 90px;
+height: 19px;
+text-align: left;
+font: normal normal normal 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #151515;
+opacity: 1;
+
+}
+
+.lfarm2{
+
+    top: 18rem;
+    right: 32.5rem;
+    position:absolute;
+    width: 90px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    }
+
+.lfarmdetails{
+
+    top: 18rem;
+    right: 32.5rem;
+    position:absolute;
+    width: 90px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    }
+.mfarm{
+top: 18rem;
+right: 33.5rem;
+position:absolute;
+width: 90px;
+height: 19px;
+text-align: left;
+font: normal normal normal 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #151515;
+opacity: 1;
+}
+.ifarm{
+    top: 20rem;
+left: 4rem;
+position:absolute;
+width: calc(100% - 850px);
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1;
+}
+.ifarm2{
+    top: 20rem;
+right: 5rem;
+position:absolute;
+width: 500px;
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1;
+}
+.ifarmdetails{
+    top: 20rem;
+right: 5rem;
+position:absolute;
+width: 33.5rem;
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1;
+}
+.ifarmdropdown{
+    top: 20rem;
+    right: 5rem;
+    position:absolute;
+    width: calc(100% - 850px);;
+    height: 30px;
+    border:none;
+    border-bottom:2px solid grey;
+    opacity: 1;
+}
+.city{
+top: 25rem;
+left: 4rem;
+position:absolute;
+width: 29px;
+height: 19px;
+text-align: left;
+font: normal normal normal 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #151515;
+opacity: 1;
+}
+.city2{
+    top: 25rem;
+    right: 37.5rem;
+    position:absolute;
+    width: 29px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1; 
+}
+.citydetails{
+    top: 25rem;
+    right: 36.5rem;
+    position:absolute;
+    width: 29px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+}
+.landlordupload{
+    top: 500px;
+left: 250px;
+position:absolute;
+    text-align: left;
+font: normal normal 600 14px/18px Montserrat;
+letter-spacing: 0px;
+color: #1D1D1D;
+opacity: 1;
+}
+
+.ownerupload{
+    top: 500px;
+right: 645px;
+position:absolute;
+    text-align: left;
+font: normal normal 600 14px/18px Montserrat;
+letter-spacing: 0px;
+color: #1D1D1D;
+opacity: 1;
+}
+.click{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+width: 97px;
+height: 13px;
+text-align: left;
+font: normal normal normal 10px/13px Montserrat;
+letter-spacing: 0px;
+color: #959595;
+opacity: 1;
+}
+.click1{
+    position: absolute;
+    top: 160px;
+left: 10px;
+width: 278px;
+height: 24px;
+text-align: left;
+font: normal normal normal 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #959595;
+opacity: 1;
+}
+.doc{
+  position: absolute;
+  top: 45px;
+  left: 50px;
+    width: 36px;
+    height: 15px;
+    text-align: center;
+    font: normal normal bold 12px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #959595;
+    opacity: 1;
+}
+.icon{
+    position: absolute;
+    top:20px;
+    left:40px;
+    width:50px;
+    height:50px;
+color:#D1D1D1;
+}
+.icon1{
+    color:#D1D1D1; 
+    position: absolute;
+    top:70px;
+    left:100px;
+width: 100px;
+height: 100px;
+}
+.lbox{
+    background-color: #F5F5F5;
+top: 535px;
+left: 240px;
+width: 132px;
+height: 120px;
+position: absolute;
+}
+.obox{
+    background-color: #F5F5F5;
+    top: 535px;
+    left: 880px;
+    width: 132px;
+    height: 120px;
+    position: absolute;
+}
+.icity{
+    top: 27rem;
+left: 4rem;
+position:absolute;
+width: calc(100% - 850px);
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1
+}
+.icitydetails{
+    top: 27rem;
+right: 5rem;
+position:absolute;
+width: 500px;
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1
+}
+.icity2{
+    top: 27rem;
+    right: 5rem;
+    position:absolute;
+    width: calc(100% - 850px);
+    height: 30px;
+    border:none;
+    border-bottom:2px solid grey;
+    opacity: 1
+}
+.pincode{
+    top: 514px;
+left: 860px;
+position:absolute;
+width: 62px;
+height: 19px;
+text-align: left;
+font: normal normal normal 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #151515;
+opacity: 1;
+}
+.ipincode{
+    top: 514px;
+left: 860px;
+position:absolute;
+width: 550px;
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1;
+}
+.state{
+    top: 32rem;
+left: 4rem;
+position:absolute;
+width: 39px;
+height: 19px;
+text-align: left;
+font: normal normal normal 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #151515;
+opacity: 1;
+}
+.istate{
+    top:34rem;
+left: 4rem;
+position:absolute;
+width: calc(100% - 850px);
+height: 30px;
+border:none;
+border-bottom:2px solid grey;
+opacity: 1;
+}
+.button{
+    top: 35rem;
+right: 5rem;
+position:absolute;
+width: 148px;
+height: 50px;
+border:none;
+background: transparent linear-gradient(91deg, #99CC00 0%, #009A00 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+}
+.box1{
+    position: absolute;
+    top: 416px;
+left: 276px;
+width: 320px;
+height: 275px;
+background-color: #F5F5F5;
+}
+.box2{
+    position: fixed;
+    top: 416px;
+left: 276px;
+width: 320px;
+height: 275px;
+background-color: #F5F5F5;
+}
+.back{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+text-align: center;
+font: normal normal 600 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #959595;
+position: absolute;
+top: 36rem;
+right: 18rem;
+}
+.text2{
+    width: 36px;
+height: 19px;
+text-align: center;
+font: normal normal 600 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.errorMsg{
+    position:absolute;
+    top:20rem;
+    left:4rem;
+}
+.errorMsg1{
+    position:absolute;
+    right: 26rem;
+    top:20rem;
+}
+.errorMsg2{
+    position:absolute;
+    left:4rem;
+    top:27rem;
+}
+.errorMsg3{
+    position:absolute;
+    right:26rem;
+    top:27rem;
+}
+.errorMsg4{
+    position:absolute;
+    left:4rem;
+    top:34rem;
+}
